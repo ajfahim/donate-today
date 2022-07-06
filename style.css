@@ -133,6 +133,66 @@ body {
 }
 /* Donate Plan Section end */
 
+/* join our mission section start */
+.mission h4 {
+  color: tomato;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.mission h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+hr {
+  background-color: tomato;
+  width: 70px;
+  margin: 0 auto;
+  color: tomato;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.mission-container {
+  display: flex;
+  width: 70%;
+  padding: 5% 15%;
+}
+.info {
+  width: 50%;
+}
+.info-item {
+  display: flex;
+  padding: 5%;
+}
+.info-item .icon {
+  width: 20%;
+
+  padding: unset;
+}
+.info-item .icon img {
+  width: 70%;
+}
+.info-name {
+  width: 80%;
+}
+.info-name h4 {
+  text-align: left;
+  color: black;
+}
+.info-name p {
+  color: #707070;
+}
+.image {
+  width: 50%;
+}
+
+.image img {
+  width: 100%;
+}
+/* join our mission section end */
+
 /* sponsor section start */
 .sponsor {
   /* background-image: url("images/donation4.jpg"); */
