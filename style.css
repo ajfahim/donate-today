@@ -8,7 +8,9 @@ body {
 
 /* header start */
 .header {
-  background-image: url(images/donation13.jpg);
+  /* background-image: url(images/donation13.jpg); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("images/donation13.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 670px;
