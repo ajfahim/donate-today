@@ -133,6 +133,30 @@ body {
 }
 /* Donate Plan Section end */
 
+/* sponsor section start */
+.sponsor {
+  /* background-image: url("images/donation4.jpg"); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/donation4.jpg");
+
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  margin-bottom: 70px;
+}
+.sponsor .change {
+  color: tomato;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* sponsor section end */
+
 /* Updates Section start */
 .email-section {
   background-color: #fff4d6;
