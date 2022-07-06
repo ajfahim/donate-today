@@ -5,6 +5,8 @@
 body {
   font-family: "Ubuntu Mono", monospace;
 }
+
+/* header start */
 .header {
   background-image: url(images/donation13.jpg);
   background-repeat: no-repeat;
@@ -17,24 +19,73 @@ body {
   gap: 30px;
 }
 
-.header h1 {
+.h1 {
   font-size: 65px;
   font-weight: 700;
   color: white;
   width: 800px;
   text-align: center;
 }
-.header p {
+.paragraph {
   width: 700px;
   color: white;
   text-align: center;
   font-size: 18px;
 }
-.header a {
+.donate-button {
   text-decoration: none;
   color: white;
   background-color: #ff5959;
   padding: 20px 50px;
   border-radius: 5px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
+/* header end */
+
+/* Donate Today Section start */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .h1 {
+  color: #121212;
+  padding-bottom: 50px;
+}
+.container .paragraph {
+  color: #707070;
+  padding-bottom: 50px;
+}
+.amount {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.amount-item {
+  padding: 80px 70px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  color: #707070;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+.active {
+  border: 2px solid #ff5959;
+  background-color: #ffeeee;
+  color: #ff5959;
+}
+.container input {
+  width: 65%;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+  border: none;
+  border-bottom: 2px solid #dadada;
+  outline: none;
+}
+/* Donate Today Section end */
